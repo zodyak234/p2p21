@@ -1,1 +1,43 @@
-node_modules
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+aria2*.log
+
+# Environment
+.env
+.env.local
+
+# User data
+users.json
+server/users.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+*.tmp
+*.temp
+
+# Electron
+release/
+app/dist/
